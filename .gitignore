@@ -1,0 +1,106 @@
+# ----------------------------------------
+# Node.js / Express Backend .gitignore
+# ----------------------------------------
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment variables
+.env
+.env.*        # any file like .env.local, .env.production
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Build / Dist directories
+dist/
+build/
+out/
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Debug output
+npm-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Coverage reports
+coverage/
+.nyc_output/
+
+# Temporary files
+.tmp/
+temp/
+cache/
+*.tmp
+
+# Uploaded files (if stored locally)
+uploads/
+public/uploads/
+
+# TypeScript build artifacts
+*.tsbuildinfo
+
+# IDE / Editor files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Testing
+jest-test-results.json
+test-results.xml
+
+# PM2 process logs / configs
+pm2/logs/
+pm2/pids/
+pm2/*.log
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Prisma (if used)
+prisma/migrations/dev/
+prisma/generated/
+
+# Docker files (optional, ignore build cache)
+.dockerignore
+docker-compose.override.yml
+
+# SQLite (if used locally)
+*.sqlite
+*.sqlite-journal
+
+# Backup files
+*.bak
+*.swp
+*.swm
+*.swn
+*.swo
+
+# Environment config backups
+config/local.json
+config/*.local.json
+
+# ----------------------------------------
+# END
+# ----------------------------------------
