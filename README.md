@@ -32,7 +32,7 @@ A Node.js/Express backend for Safaricom M-Pesa STK Push integration. Supports in
 ## Installation
 1. clone the repository:
 ```bash
-git clone <url>
+git clone https://github.com/Sammymarigamukami/mpesa-stk-push-backend
 cd stk-push
 ```
 2. Install dependecies:
