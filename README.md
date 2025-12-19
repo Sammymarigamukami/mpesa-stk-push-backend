@@ -142,6 +142,7 @@ Content-Type: application/json
 
 {
   "phone": "0712345678",
+  "item": [{"name":"value"},...]
   "amount": 100
 }
 ```
